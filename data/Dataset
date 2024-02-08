@@ -1,7 +1,7 @@
-**Dataset/ Topic Name:** "Traffic Violations in USA"
+Dataset/ Topic Name
+Dataset Name: Traffic Violations in USA
 
-**Data Description:**
+Data Description:
 The dataset "Traffic_Violations_USA.csv" contains information on traffic violations in the United States, including details such as the date and time of the violation, location, type of violation, driver demographics, and enforcement-related information.
 
-**Data Source:** Kaggle
-- Link: [https://www.kaggle.com/datasets/felix4guti/traffic-violations-in-usa/data](https://www.kaggle.com/datasets/felix4guti/traffic-violations-in-usa/data)
+Data Source: Kaggle - Traffic Violations in USA
