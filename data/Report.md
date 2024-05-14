@@ -1,3 +1,4 @@
+
 # Traffic Violations and Predictive Analysis
 ### Prepared for UMBC Data Science Master's Degree Capstone by Dr. Chaoji (Jay) Wang
 
@@ -39,3 +40,10 @@ The dataset `Trafficviolations.csv` includes 132,728 records with 7 columns deta
 | `Time Of Stop` | Time when the violation was noted.            |
 | `Gender`       | Gender of the driver.                         |
 | `Violation Type` | Classification of the violation (e.g., Citation). |
+
+### Target Variable
+- **Violation Type**: This column is used as the target variable for predictions. It categorizes the type of violation, such as 'Citation', 'Warning', 'SERO'.
+
+### Dimensions
+- **Number of Rows**: 132,728
+- **Number of Columns**: 7
