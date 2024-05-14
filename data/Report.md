@@ -22,3 +22,20 @@ a. **Trends Analysis:** What are the most common times of day or periods of the 
 b. **Influential Factors:** Which factors most significantly influence the outcomes of traffic violations, such as the likelihood of accidents or repeat offenses, and how can these insights improve the predictive modeling process?
 
 c. **Intervention Strategies:** What specific, data-driven interventions can be recommended to prevent severe outcomes from traffic violations, and how can these strategies be effectively implemented within the target region?
+
+## Step 1: Data
+
+### Overview
+The dataset `Trafficviolations.csv` includes 132,728 records with 7 columns detailing traffic violations.
+
+### Columns
+
+| Column Name    | Description                                   |
+|----------------|-----------------------------------------------|
+| `Description`  | Specifies the traffic violation type.         |
+| `Location`     | Location of the incident.                     |
+| `Make`         | Vehicle make involved.                        |
+| `Driver State` | State issuing the driver's license.           |
+| `Time Of Stop` | Time when the violation was noted.            |
+| `Gender`       | Gender of the driver.                         |
+| `Violation Type` | Classification of the violation (e.g., Citation). |
