@@ -48,13 +48,13 @@ The dataset `Trafficviolations.csv` includes 132,728 records with 7 columns deta
 - **Number of Rows**: 132,728
 - **Number of Columns**: 7
 
-- ## Step 1: Data Cleaning and Preprocessing
+- ## Step 1: Data Preparation
 
-### Data Cleaning
+### Step 1.1: Data Cleaning
 - **Remove Missing Values**: Removed any rows or columns containing all missing values to ensure data integrity. Ensured no null values remained in the dataset by re-checking after cleanup.
 - **Handle Duplicates**: Identified and marked duplicate rows to ensure the uniqueness of the dataset entries. Also, checked for duplicate columns but found none.
 
-### Data Preprocessing
+### Step 1.2: Data Preprocessing and Data Visualizations
 - **Data Type Conversion**: 
   - Converted 'Time Of Stop' from string format to a datetime format to facilitate time-based analysis.
   - Changed the data types of categorical columns ('Description', 'Location', 'Make', 'Driver State', 'Gender', 'Violation Type') to 'category' to reduce memory usage and improve performance.
@@ -63,4 +63,6 @@ The dataset `Trafficviolations.csv` includes 132,728 records with 7 columns deta
   - Dropped unnecessary columns after review and based on the relevance to the prediction model to streamline the dataset for analysis.
 - **Label Encoding**:
   - Applied custom encoding to categorical features using an extended version of `LabelEncoder` that can handle unknown labels, which prepares categorical data for model input.
+- **Data Visualizations**:
+  - Moving to the Visual representations, I have generated to explore feature distributions and relationships, aiding in the understanding of data patterns and supporting subsequent analysis.
 
