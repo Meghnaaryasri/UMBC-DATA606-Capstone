@@ -220,5 +220,7 @@ Initially, high accuracy scores indicated a potential class imbalance in the dat
 ### Balancing the Dataset
 - **Applied SMOTE Method**: The Synthetic Minority Over-sampling Technique (SMOTE) was employed to address the imbalance in the dataset. SMOTE generates synthetic samples from the minority class to create a balanced dataset.
 
+![image](https://github.com/Meghnaaryasri/UMBC-DATA606-Capstone/assets/158225860/4dbd04e1-b32c-49a2-8e16-9b1a671bd543)
+
 
 
