@@ -299,4 +299,16 @@ This Streamlit web application serves as a practical demonstration of applying m
 5. **Broader Impact**: The project demonstrates the potential of machine learning to improve public safety by informing better traffic law enforcement strategies.
 
 
+## Limitations
+
+1. **Data Quality and Variety**: The model's performance is heavily dependent on the quality and variety of the data available, and any inaccuracies or biases in the data could skew the results.
+2. **Model Generalizability**: The models might not perform as well when applied to data from different geographic locations or under different traffic conditions due to potential overfitting to the training data.
+3. **Real-Time Data Processing**: The current web application does not handle real-time data streaming, which could limit its applicability in dynamic, real-time decision-making environments.
+
+## Lessons Learned
+
+1. **Importance of Data Preprocessing**: Proper cleaning and balancing of the data are crucial for developing effective machine learning models, as demonstrated by the significant impact of SMOTE on model performance.
+2. **Value of Visualization**: Visualizations were invaluable for understanding underlying data patterns and communicating findings, enhancing both model development and stakeholder engagement.
+3. **Efficacy of Ensemble Methods**: Employing ensemble methods like the Voting Classifier can significantly enhance model accuracy and robustness by combining the strengths of individual models.
+4. **User Interface Simplicity**: The Streamlit web application highlighted the importance of user interface design in making complex models accessible and usable to non-experts, enhancing the practical utility of machine learning models.
 
