@@ -130,3 +130,28 @@ The dataset `Trafficviolations.csv` includes 132,728 records with 7 columns deta
 
 
 
+## Step 4 Model Training
+
+### Dataset Split
+- The dataset is split into training and testing sets, typically with 80% of the data used for training and 20% reserved for testing. This ratio ensures that the model has enough data to learn from while also retaining a significant subset for unbiased evaluation.
+
+### Key Considerations for Model Training
+- **Data Balance**: Ensure the training data is well-balanced across different classes to prevent model bias toward more frequent categories.
+- **Feature Scaling**: Although not applied in this project, feature scaling can be crucial for many algorithms to perform optimally, especially those sensitive to the scale of input data like KNN or SVM.
+- **Validation Strategy**: Employ robust validation techniques such as K-fold cross-validation to assess model performance reliably and mitigate overfitting.
+
+### 4.1 Predictive Models
+
+#### 4.1.1 Model Selection
+- **Model Selection**: Train several machine learning models, including RandomForest, GradientBoosting, LogisticRegression, KNeighbors, DecisionTree, and NaiveBayes, to compare their efficacy based on the project's specific needs.
+
+#### 4.1.2 Model Evaluation
+- **Model Evaluation**: Assess model performance using accuracy metrics to determine how well each model predicts the target variable.
+
+#### 4.1.3 Advanced Techniques
+- **Cross-validation**: Apply cross-validation to validate model performance consistently across different subsets of the dataset, ensuring the model's generalizability.
+- **Hyperparameter Tuning**: Utilize RandomizedSearchCV for hyperparameter tuning to find the optimal settings for each model, enhancing performance.
+
+#### 4.1.4 Ensemble Methods
+- **Ensemble Methods**: Implement a Voting Classifier combining predictions from various models to improve prediction accuracy by leveraging the strengths of individual models while compensating for their weaknesses.
+
