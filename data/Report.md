@@ -42,7 +42,7 @@ The dataset `Trafficviolations.csv` includes 132,728 records with 7 columns deta
 | `Violation Type` | Classification of the violation (e.g., Citation). |
 
 ### Target Variable
-- **Violation Type**: This column is used as the target variable for predictions. It categorizes the type of violation, such as 'Citation', 'Warning', 'SERO'.
+- **Violation Type**: This column is used as the target variable for predictions. It categorizes the type of violation, such as 'Citation', 'Warning', 'ESERO', SERO'.
 
 ### Dimensions
 - **Number of Rows**: 132,728
