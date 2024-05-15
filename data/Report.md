@@ -1,5 +1,6 @@
 
 # Traffic Violations and Predictive Analysis
+## 1.Title and Author
 ### Prepared for UMBC Data Science Master's Degree Capstone by Dr. Chaoji (Jay) Wang
 
 **Author:** Meghna Vaishnavi Aryasri, UMBC, Fall-2024 Semester
@@ -10,7 +11,7 @@
 - **YouTube:** 
 - **Presentation:** 
 
-## Background
+## 2.Background
 
 This project focuses on analyzing and predicting the outcomes of traffic violations based on historical data from a specified region. By utilizing records of past traffic violations, the project aims to train a predictive model capable of assessing the likely consequences of these incidents. Once developed, this model will enable authorities to predict outcomes such as the potential for accidents or repeated offenses from traffic violations, thereby facilitating preemptive measures.
 
@@ -48,13 +49,15 @@ The dataset `Trafficviolations.csv` includes 132,728 records with 7 columns deta
 - **Number of Rows**: 132,728
 - **Number of Columns**: 7
 
-- ## Step 1: Data Preparation
+- ## 3: Data Preparation
 
-### Step 1.1: Data Cleaning
+- ### 3.1 Data Source: Kaggle
+
+### 3.2 Data Cleaning
 - **Remove Missing Values**: Removed any rows or columns containing all missing values to ensure data integrity. Ensured no null values remained in the dataset by re-checking after cleanup.
 - **Handle Duplicates**: Identified and marked duplicate rows to ensure the uniqueness of the dataset entries. Also, checked for duplicate columns but found none.
 
-### Step 1.2: Data Preprocessing and Data Visualizations
+### 3.3 Data Preprocessing and Data Visualizations
 - **Data Type Conversion**: 
   - Converted 'Time Of Stop' from string format to a datetime format to facilitate time-based analysis.
   - Changed the data types of categorical columns ('Description', 'Location', 'Make', 'Driver State', 'Gender', 'Violation Type') to 'category' to reduce memory usage and improve performance.
@@ -74,53 +77,53 @@ The dataset `Trafficviolations.csv` includes 132,728 records with 7 columns deta
 - **Data Visualizations**:
   - Moving to the Visual representations, I have generated to explore feature distributions and relationships, aiding in the understanding of data patterns and supporting subsequent analysis.
  
-### 1.2.1 Number of Violations by Time of Day
+### 3.3.1 Number of Violations by Time of Day
 - Bar chart showing higher number of violations during daytime compared to nighttime.
 
  ![image](https://github.com/Meghnaaryasri/UMBC-DATA606-Capstone/assets/158225860/6496ffd0-2177-4028-9260-097cb8fe5c29)
 
-### 1.2.2 Heatmap of Violation Type by Driver State and Gender
+### 3.3.2 Heatmap of Violation Type by Driver State and Gender
 - Heatmap depicting the distribution of violation types across driver states and genders.
 
  ![image](https://github.com/Meghnaaryasri/UMBC-DATA606-Capstone/assets/158225860/ba6fe195-901a-4b73-9363-817bb9c5ebda)
 
 
-### 1.2.3 Proportion of Violation Types
+### 3.3.3 Proportion of Violation Types
 - Pie chart representing the proportion of different violation types, highlighting a majority of citations.
 
  ![image](https://github.com/Meghnaaryasri/UMBC-DATA606-Capstone/assets/158225860/2f3d4c2d-5986-47bb-a860-f840ba9ddf9e)
 
 
-### 1.2.4 Scatter Plot of Time of Violation vs Make of Car
+### 3.3.4 Scatter Plot of Time of Violation vs Make of Car
 - Scatter plot illustrating the correlation between time of violation and car make during morning hours.
 
 ![image](https://github.com/Meghnaaryasri/UMBC-DATA606-Capstone/assets/158225860/91902941-fa7a-4199-a898-faa10813928d)
 
-### 1.2.5 Distribution of Violations by Location
+### 3.3.5 Distribution of Violations by Location
 - Bar chart showing counts of violations at various locations, with "14000 BLK GEORGIA AVE" as a hotspot.
 
  ![image](https://github.com/Meghnaaryasri/UMBC-DATA606-Capstone/assets/158225860/e9aa9010-dac1-40ea-ace9-80d0950d0e1b)
 
 
-### 1.2.6 Histogram of Violation Descriptions Frequency
+### 3.3.6 Histogram of Violation Descriptions Frequency
 - Histogram displaying the frequency of different violation descriptions.
 
  ![image](https://github.com/Meghnaaryasri/UMBC-DATA606-Capstone/assets/158225860/471f959d-7c9b-4813-a925-fed133898146)
 
 
-### 1.2.7 Box Plot of Violations by Time of Day
+### 3.3.7 Box Plot of Violations by Time of Day
 - Box plot detailing the spread of violation times during the day.
 
  ![image](https://github.com/Meghnaaryasri/UMBC-DATA606-Capstone/assets/158225860/14be8900-bfe4-45da-bee2-15b57ce6f539)
 
 
-### 1.2.8 Sunburst Chart of Traffic Violations by Type, Gender, and Driver State
+### 3.3.8 Sunburst Chart of Traffic Violations by Type, Gender, and Driver State
 - Sunburst chart showing the relationship among violation types, gender, and driver states.
 
  ![image](https://github.com/Meghnaaryasri/UMBC-DATA606-Capstone/assets/158225860/313627b9-3dbf-42f6-8c8b-18da7b0b3ad6)
 
 
-### 1.2.9 Bubble Chart of Traffic Violations by Month and Driver State
+### 3.3.9 Bubble Chart of Traffic Violations by Month and Driver State
 - Bubble chart visualizing traffic violation counts by driver state and month, with size indicating frequency.
 
  ![image](https://github.com/Meghnaaryasri/UMBC-DATA606-Capstone/assets/158225860/253d0933-5d39-4b30-97c3-a752f830e96b)
