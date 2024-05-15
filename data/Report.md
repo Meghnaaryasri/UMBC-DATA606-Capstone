@@ -173,6 +173,33 @@ Below is a table summarizing the accuracy scores for each predictive model train
 - **Cross-validation**: Applied cross-validation to validate model performance consistently across different subsets of the dataset, ensuring the model's generalizability.
 - **Hyperparameter Tuning**: Utilized RandomizedSearchCV for hyperparameter tuning to find the optimal settings for each model, enhancing performance.
 
+## Enhanced Model Performance Scores
+
+Below are tables summarizing the cross-validation accuracy scores and the best scores achieved through Randomized Search CV for each predictive model trained in this project:
+
+### Cross-Validation Scores
+
+| Model                | Cross-Validation Accuracy |
+|----------------------|---------------------------|
+| **Random Forest**    | 0.95                      |
+| **Gradient Boosting**| 0.95                      |
+| **Logistic Regression**| 0.95                    |
+| **K-Nearest Neighbors**| 0.94                    |
+| **Decision Tree**    | 0.92                      |
+| **Naive Bayes**      | 0.95                      |
+
+### Randomized Search CV Best Scores
+
+| Model                | Best Score from Randomized Search CV |
+|----------------------|--------------------------------------|
+| **Random Forest**    | 0.95                                 |
+| **Gradient Boosting**| 0.95                                 |
+| **Logistic Regression**| 0.95                               |
+| **K-Nearest Neighbors**| 0.93                               |
+| **Decision Tree**    | 0.95                                 |
+| **Naive Bayes**      | 0.95                                 |
+
+
 #### 4.1.4 Ensemble Methods
 - **Ensemble Methods**: Implemented a Voting Classifier combining predictions from various models to improve prediction accuracy by leveraging the strengths of individual models while compensating for their weaknesses.
 
