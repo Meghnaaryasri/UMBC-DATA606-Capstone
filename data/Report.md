@@ -74,17 +74,56 @@ The dataset `Trafficviolations.csv` includes 132,728 records with 7 columns deta
 - **Data Visualizations**:
   - Moving to the Visual representations, I have generated to explore feature distributions and relationships, aiding in the understanding of data patterns and supporting subsequent analysis.
  
-### 1.2.1: Distribution of Violation Types
-- A pie chart displaying the proportions of different types of violations (`Citation`, `Warning`, `SERO`), showing the prevalence of each type within the dataset.
+### 1.2.1 Number of Violations by Time of Day
+- Bar chart showing higher number of violations during daytime compared to nighttime.
 
-### 1.2.2: Violations by Gender
-- A grouped bar chart comparing the number of each type of violation by gender, highlighting any disparities between males and females in traffic violations.
+- ![image](https://github.com/Meghnaaryasri/UMBC-DATA606-Capstone/assets/158225860/6496ffd0-2177-4028-9260-097cb8fe5c29)
 
-### 1.2.3: Top 10 Locations for Traffic Violations
-- A bar chart indicating the locations with the highest number of traffic violations, useful for pinpointing hotspots that may require additional monitoring or interventions.
+### 1.2.2 Heatmap of Violation Type by Driver State and Gender
+- Heatmap depicting the distribution of violation types across driver states and genders.
 
-### 1.2.4: Violation Type by Time of Day
-- A histogram analyzing the occurrence of violations across different times of the day, useful for understanding peak times for different types of violations.
+- ![image](https://github.com/Meghnaaryasri/UMBC-DATA606-Capstone/assets/158225860/ba6fe195-901a-4b73-9363-817bb9c5ebda)
 
-These visualizations provide critical insights into the data, helping to uncover patterns and trends that can guide further analysis and decision-making.
+
+### 1.2.3 Proportion of Violation Types
+- Pie chart representing the proportion of different violation types, highlighting a majority of citations.
+
+- ![image](https://github.com/Meghnaaryasri/UMBC-DATA606-Capstone/assets/158225860/2f3d4c2d-5986-47bb-a860-f840ba9ddf9e)
+
+
+### 1.2.4 Scatter Plot of Time of Violation vs Make of Car
+- Scatter plot illustrating the correlation between time of violation and car make during morning hours.
+
+![image](https://github.com/Meghnaaryasri/UMBC-DATA606-Capstone/assets/158225860/91902941-fa7a-4199-a898-faa10813928d)
+
+### 1.2.5 Distribution of Violations by Location
+- Bar chart showing counts of violations at various locations, with "14000 BLK GEORGIA AVE" as a hotspot.
+
+- ![image](https://github.com/Meghnaaryasri/UMBC-DATA606-Capstone/assets/158225860/e9aa9010-dac1-40ea-ace9-80d0950d0e1b)
+
+
+### 1.2.6 Histogram of Violation Descriptions Frequency
+- Histogram displaying the frequency of different violation descriptions.
+
+- ![image](https://github.com/Meghnaaryasri/UMBC-DATA606-Capstone/assets/158225860/471f959d-7c9b-4813-a925-fed133898146)
+
+
+### 1.2.7 Box Plot of Violations by Time of Day
+- Box plot detailing the spread of violation times during the day.
+
+- ![image](https://github.com/Meghnaaryasri/UMBC-DATA606-Capstone/assets/158225860/14be8900-bfe4-45da-bee2-15b57ce6f539)
+
+
+### 1.2.8 Sunburst Chart of Traffic Violations by Type, Gender, and Driver State
+- Sunburst chart showing the relationship among violation types, gender, and driver states.
+
+- ![image](https://github.com/Meghnaaryasri/UMBC-DATA606-Capstone/assets/158225860/313627b9-3dbf-42f6-8c8b-18da7b0b3ad6)
+
+
+### 1.2.9 Bubble Chart of Traffic Violations by Month and Driver State
+- Bubble chart visualizing traffic violation counts by driver state and month, with size indicating frequency.
+
+- ![image](https://github.com/Meghnaaryasri/UMBC-DATA606-Capstone/assets/158225860/253d0933-5d39-4b30-97c3-a752f830e96b)
+
+
 
