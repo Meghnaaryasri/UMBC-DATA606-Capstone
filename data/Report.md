@@ -249,4 +249,15 @@ A Voting Classifier was retrained using the best parameters obtained from indivi
 | **Naive Bayes**      | 0.33                  | 0.59                      | 0.62                     |
 
 
+## 6.4 Best Model Selection Post Re-Training
+
+After retraining and optimizing all models with the balanced dataset, the model that demonstrated the highest performance was identified based on the accuracy scores obtained from the Randomized Search CV.
+
+### Top Performing Model
+
+| Model                | Best Score from Randomized Search CV |
+|----------------------|--------------------------------------|
+| **Gradient Boosting**| 0.97                                 |
+
+The Gradient Boosting model emerged as the best performer, showcasing significant effectiveness in handling the balanced dataset with a score of 0.97 from Randomized Search CV. This model is selected as the most robust predictive tool in our project, capable of delivering high accuracy and reliability in predictions.
 
