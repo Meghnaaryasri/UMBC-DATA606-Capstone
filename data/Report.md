@@ -211,3 +211,17 @@ Below is a table summarizing the accuracy score for the Voting Classifier, which
 |-----------------------|----------------|
 | **Voting Classifier** | 0.95           |
 
+
+## Step 5: Handling Imbalanced Dataset
+
+### Overview
+Initially, high accuracy scores indicated a potential class imbalance in the dataset, which can lead to misleading model performance, particularly overfitting to the majority class.
+
+### Balancing the Dataset
+- **Apply SMOTE**: The Synthetic Minority Over-sampling Technique (SMOTE) was employed to address the imbalance in the dataset. SMOTE generates synthetic samples from the minority class to create a balanced dataset.
+
+```python
+from imblearn.over_sampling import SMOTE
+smote = SMOTE(random_state=42)
+X_train_smote, y_train_smote = smote.fit_resample(X_train, y_train)
+
