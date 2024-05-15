@@ -65,12 +65,11 @@ The dataset `Trafficviolations.csv` includes 132,728 records with 7 columns deta
   - Carefully selected features that significantly influence the predictive model based on their correlation and impact on the outcome variable.
 - **Feature Importance**:
   - Analyzed and visualized the importance of each feature in the predictive model using a bar chart. This helps in understanding which features have the most significant effect on predictions.
-- **Label Encoding**:
-  - Applied custom encoding to categorical features using an extended version of `LabelEncoder` that can handle unknown labels, which prepares categorical data for model input.
-- **Data Visualizations**:
-  - Moving to the Visual representations, I have generated to explore feature distributions and relationships, aiding in the understanding of data patterns and supporting subsequent analysis.
-
 
 ![image](https://github.com/Meghnaaryasri/UMBC-DATA606-Capstone/assets/158225860/4720e2aa-078c-498f-be3b-596d8d37b772)
 
 
+- **Label Encoding**:
+  - Applied custom encoding to categorical features using an extended version of `LabelEncoder` that can handle unknown labels, which prepares categorical data for model input.
+- **Data Visualizations**:
+  - Moving to the Visual representations, I have generated to explore feature distributions and relationships, aiding in the understanding of data patterns and supporting subsequent analysis.
