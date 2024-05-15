@@ -290,3 +290,13 @@ This Streamlit web application serves as a practical demonstration of applying m
 
 ![image](https://github.com/Meghnaaryasri/UMBC-DATA606-Capstone/assets/158225860/dc3829e0-cbb8-4dc9-af96-d1c419dc4c29)
 
+## Conclusion
+
+1. **Data Insights**: Visualizations and analyses provided a clear understanding of when and where violations are most likely.
+2. **High Accuracy**: Models like Gradient Boosting performed exceptionally well, indicating strong predictive capabilities.
+3. **Balanced Data Approach**: Using SMOTE to balance the data ensured fair and accurate predictions across all violation types.
+4. **Practical Application**: The Streamlit web application allows users to easily predict violations, making the model accessible to non-experts.
+5. **Broader Impact**: The project demonstrates the potential of machine learning to improve public safety by informing better traffic law enforcement strategies.
+
+
+
