@@ -73,3 +73,18 @@ The dataset `Trafficviolations.csv` includes 132,728 records with 7 columns deta
   - Applied custom encoding to categorical features using an extended version of `LabelEncoder` that can handle unknown labels, which prepares categorical data for model input.
 - **Data Visualizations**:
   - Moving to the Visual representations, I have generated to explore feature distributions and relationships, aiding in the understanding of data patterns and supporting subsequent analysis.
+ 
+### 1.2.1: Distribution of Violation Types
+- A pie chart displaying the proportions of different types of violations (`Citation`, `Warning`, `SERO`), showing the prevalence of each type within the dataset.
+
+### 1.2.2: Violations by Gender
+- A grouped bar chart comparing the number of each type of violation by gender, highlighting any disparities between males and females in traffic violations.
+
+### 1.2.3: Top 10 Locations for Traffic Violations
+- A bar chart indicating the locations with the highest number of traffic violations, useful for pinpointing hotspots that may require additional monitoring or interventions.
+
+### 1.2.4: Violation Type by Time of Day
+- A histogram analyzing the occurrence of violations across different times of the day, useful for understanding peak times for different types of violations.
+
+These visualizations provide critical insights into the data, helping to uncover patterns and trends that can guide further analysis and decision-making.
+
