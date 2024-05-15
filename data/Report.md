@@ -312,3 +312,8 @@ This Streamlit web application serves as a practical demonstration of applying m
 3. **Efficacy of Ensemble Methods**: Employing ensemble methods like the Voting Classifier can significantly enhance model accuracy and robustness by combining the strengths of individual models.
 4. **User Interface Simplicity**: The Streamlit web application highlighted the importance of user interface design in making complex models accessible and usable to non-experts, enhancing the practical utility of machine learning models.
 
+## Future Work
+1. **Integration of Real-Time Data**: Enhancing the web application to process and analyze real-time traffic data could significantly improve the applicability of the model for live traffic management and law enforcement.
+2. **Expansion to Other Regions**: Adapting and testing the model with traffic violation data from different regions could help improve its generalizability and accuracy across various geographic settings.
+3. **Advanced Analytics Features**: Incorporating more advanced analytics features into the web application, such as predictive trends and anomaly detection, could provide deeper insights and more proactive traffic management capabilities.
+
