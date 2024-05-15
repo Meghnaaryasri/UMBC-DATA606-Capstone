@@ -203,3 +203,11 @@ Below are tables summarizing the cross-validation accuracy scores and the best s
 #### 4.1.4 Ensemble Methods
 - **Ensemble Methods**: Implemented a Voting Classifier combining predictions from various models to improve prediction accuracy by leveraging the strengths of individual models while compensating for their weaknesses.
 
+## Voting Classifier Performance
+
+Below is a table summarizing the accuracy score for the Voting Classifier, which combines multiple predictive models:
+
+| Ensemble Method       | Accuracy Score |
+|-----------------------|----------------|
+| **Voting Classifier** | 0.95           |
+
