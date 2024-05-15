@@ -261,3 +261,7 @@ After retraining and optimizing all models with the balanced dataset, the model 
 
 The Gradient Boosting model emerged as the best performer, showcasing significant effectiveness in handling the balanced dataset with a score of 0.97 from Randomized Search CV. This model is selected as the most robust predictive tool in our project, capable of delivering high accuracy and reliability in predictions.
 
+## Model Saving
+
+Saving the trained model ensures that it can be reused without the need for retraining, enhancing efficiency and maintaining prediction consistency. This allows for seamless deployment in production, reducing both time and resource utilization for future predictions.
+
