@@ -152,6 +152,9 @@ The dataset `Trafficviolations.csv` includes 132,728 records with 7 columns deta
 - **NaiveBayes**
 - to compare their efficacy based on the project's specific needs.
 
+#### 4.1.2 Model Evaluation
+- **Model Evaluation**: Assessed model performance using accuracy metrics to determine how well each model predicts the target variable.
+
 - ## Model Performance Scores
 
 Below is a table summarizing the accuracy scores for each predictive model trained in this project:
@@ -165,9 +168,6 @@ Below is a table summarizing the accuracy scores for each predictive model train
 | **Decision Tree**    | 0.93           |
 | **Naive Bayes**      | 0.95           |
 
-
-#### 4.1.2 Model Evaluation
-- **Model Evaluation**: Assessed model performance using accuracy metrics to determine how well each model predicts the target variable.
 
 #### 4.1.3 Advanced Techniques
 - **Cross-validation**: Applied cross-validation to validate model performance consistently across different subsets of the dataset, ensuring the model's generalizability.
