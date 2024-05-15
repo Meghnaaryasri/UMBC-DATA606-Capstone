@@ -265,3 +265,26 @@ The Gradient Boosting model emerged as the best performer, showcasing significan
 
 Saving the trained model ensures that it can be reused without the need for retraining, enhancing efficiency and maintaining prediction consistency. This allows for seamless deployment in production, reducing both time and resource utilization for future predictions.
 
+
+## 7 Web Application Using Streamlit
+
+### Overview
+We developed a web application using Streamlit to predict the type of traffic violation based on user-inputted data. This interactive application utilizes the trained Voting Classifier model to generate predictions.
+
+### Implementation Details
+- **Background Setup**: The application features a custom background image to enhance user experience.
+- **Model Loading**: The Voting Classifier model is loaded into the application, allowing for real-time predictions.
+- **Data Input**: Users can input data through dropdown menus for the following fields:
+  - **Car Make**: Users select from a list of car makes that appear frequently in the dataset.
+  - **Violation Description**: Users select from common violation descriptions.
+  - **Location of Violation**: Users select from common locations where violations occurred.
+  - **Driver State**: Users can choose the driver's state from a predefined list.
+  - **Gender**: Users select the gender of the driver.
+- **Prediction**: Upon form submission, the model predicts the type of violation based on the input data.
+
+### Insights from the Web Application
+- **User Interaction**: Users interact with the model through a simple and intuitive interface, facilitating easy access to machine learning predictions.
+- **Functionality**: The application dynamically predicts traffic violation types, demonstrating the practical application of the model in real-world scenarios.
+
+This Streamlit web application serves as a practical demonstration of applying machine learning models to assist users in understanding and predicting traffic violation outcomes based on specific input parameters.
+
