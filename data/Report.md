@@ -288,3 +288,5 @@ We developed a web application using Streamlit to predict the type of traffic vi
 
 This Streamlit web application serves as a practical demonstration of applying machine learning models to assist users in understanding and predicting traffic violation outcomes based on specific input parameters.
 
+![image](https://github.com/Meghnaaryasri/UMBC-DATA606-Capstone/assets/158225860/dc3829e0-cbb8-4dc9-af96-d1c419dc4c29)
+
