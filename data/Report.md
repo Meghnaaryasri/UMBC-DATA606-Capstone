@@ -70,3 +70,7 @@ The dataset `Trafficviolations.csv` includes 132,728 records with 7 columns deta
 - **Data Visualizations**:
   - Moving to the Visual representations, I have generated to explore feature distributions and relationships, aiding in the understanding of data patterns and supporting subsequent analysis.
 
+
+![image](https://github.com/Meghnaaryasri/UMBC-DATA606-Capstone/assets/158225860/4720e2aa-078c-498f-be3b-596d8d37b772)
+
+
