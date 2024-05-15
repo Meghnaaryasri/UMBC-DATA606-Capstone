@@ -239,7 +239,7 @@ A Voting Classifier was retrained using the best parameters obtained from indivi
 
 ### Model Scores Post Re-Training
 
-| Model                | Normal Model Accuracy | Cross-Validation Accuracy | Best Random Search Score |
+| Model                | Model Accuracy | Cross-Validation Accuracy | Best Random Search Score |
 |----------------------|-----------------------|---------------------------|--------------------------|
 | **Random Forest**    | 0.93                  | 0.97                      | 0.90                     |
 | **Gradient Boosting**| 0.80                  | 0.87                      | 0.97                     |
