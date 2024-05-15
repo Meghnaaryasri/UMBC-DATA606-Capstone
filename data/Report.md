@@ -51,13 +51,16 @@ The dataset `Trafficviolations.csv` includes 132,728 records with 7 columns deta
 - ## Step 1: Data Cleaning and Preprocessing
 
 ### Data Cleaning
-- **Missing Values**: All rows and columns containing only missing values were removed to ensure data integrity.
-- **Duplicate Rows**: Identified and removed any duplicate rows to maintain the uniqueness of the dataset entries.
+- **Remove Missing Values**: Removed any rows or columns containing all missing values to ensure data integrity. Ensured no null values remained in the dataset by re-checking after cleanup.
+- **Handle Duplicates**: Identified and marked duplicate rows to ensure the uniqueness of the dataset entries. Also, checked for duplicate columns but found none.
 
 ### Data Preprocessing
 - **Data Type Conversion**: 
-  - Converted 'Time Of Stop' to datetime format to facilitate time-based analysis.
-  - Categorical data such as 'Description', 'Location', 'Make', 'Driver State', 'Gender', and 'Violation Type' were transformed to category types to optimize memory usage.
+  - Converted 'Time Of Stop' from string format to a datetime format to facilitate time-based analysis.
+  - Changed the data types of categorical columns ('Description', 'Location', 'Make', 'Driver State', 'Gender', 'Violation Type') to 'category' to reduce memory usage and improve performance.
 - **Feature Engineering**:
-  - Added a new feature 'Time of Day', derived from 'Time Of Stop', categorizing entries into 'Day' or 'Night' to explore temporal patterns in violations.
+  - Added a new feature 'Time of Day' derived from the 'Time Of Stop' column. This feature categorizes the time into 'Day' or 'Night' based on whether the time of the violation is before or after 6 AM and before 6 PM, respectively.
+  - Dropped unnecessary columns after review and based on the relevance to the prediction model to streamline the dataset for analysis.
+- **Label Encoding**:
+  - Applied custom encoding to categorical features using an extended version of `LabelEncoder` that can handle unknown labels, which prepares categorical data for model input.
 
