@@ -47,3 +47,17 @@ The dataset `Trafficviolations.csv` includes 132,728 records with 7 columns deta
 ### Dimensions
 - **Number of Rows**: 132,728
 - **Number of Columns**: 7
+
+- ## Step 1: Data Cleaning and Preprocessing
+
+### Data Cleaning
+- **Missing Values**: All rows and columns containing only missing values were removed to ensure data integrity.
+- **Duplicate Rows**: Identified and removed any duplicate rows to maintain the uniqueness of the dataset entries.
+
+### Data Preprocessing
+- **Data Type Conversion**: 
+  - Converted 'Time Of Stop' to datetime format to facilitate time-based analysis.
+  - Categorical data such as 'Description', 'Location', 'Make', 'Driver State', 'Gender', and 'Violation Type' were transformed to category types to optimize memory usage.
+- **Feature Engineering**:
+  - Added a new feature 'Time of Day', derived from 'Time Of Stop', categorizing entries into 'Day' or 'Night' to explore temporal patterns in violations.
+
