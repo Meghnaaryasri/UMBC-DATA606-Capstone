@@ -143,15 +143,22 @@ The dataset `Trafficviolations.csv` includes 132,728 records with 7 columns deta
 ### 4.1 Predictive Models
 
 #### 4.1.1 Model Selection
-- **Model Selection**: Train several machine learning models, including RandomForest, GradientBoosting, LogisticRegression, KNeighbors, DecisionTree, and NaiveBayes, to compare their efficacy based on the project's specific needs.
+- **Model Selection**: Trained several machine learning models, including
+- **RandomForest**
+- **GradientBoosting**
+- **LogisticRegression**
+- **KNeighbors**
+- **DecisionTree** and
+- **NaiveBayes**
+- to compare their efficacy based on the project's specific needs.
 
 #### 4.1.2 Model Evaluation
-- **Model Evaluation**: Assess model performance using accuracy metrics to determine how well each model predicts the target variable.
+- **Model Evaluation**: Assessed model performance using accuracy metrics to determine how well each model predicts the target variable.
 
 #### 4.1.3 Advanced Techniques
-- **Cross-validation**: Apply cross-validation to validate model performance consistently across different subsets of the dataset, ensuring the model's generalizability.
-- **Hyperparameter Tuning**: Utilize RandomizedSearchCV for hyperparameter tuning to find the optimal settings for each model, enhancing performance.
+- **Cross-validation**: Applied cross-validation to validate model performance consistently across different subsets of the dataset, ensuring the model's generalizability.
+- **Hyperparameter Tuning**: Utilized RandomizedSearchCV for hyperparameter tuning to find the optimal settings for each model, enhancing performance.
 
 #### 4.1.4 Ensemble Methods
-- **Ensemble Methods**: Implement a Voting Classifier combining predictions from various models to improve prediction accuracy by leveraging the strengths of individual models while compensating for their weaknesses.
+- **Ensemble Methods**: Implemented a Voting Classifier combining predictions from various models to improve prediction accuracy by leveraging the strengths of individual models while compensating for their weaknesses.
 
