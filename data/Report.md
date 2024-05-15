@@ -61,6 +61,10 @@ The dataset `Trafficviolations.csv` includes 132,728 records with 7 columns deta
 - **Feature Engineering**:
   - Added a new feature 'Time of Day' derived from the 'Time Of Stop' column. This feature categorizes the time into 'Day' or 'Night' based on whether the time of the violation is before or after 6 AM and before 6 PM, respectively.
   - Dropped unnecessary columns after review and based on the relevance to the prediction model to streamline the dataset for analysis.
+- **Feature Selection**:
+  - Carefully selected features that significantly influence the predictive model based on their correlation and impact on the outcome variable.
+- **Feature Importance**:
+  - Analyzed and visualized the importance of each feature in the predictive model using a bar chart. This helps in understanding which features have the most significant effect on predictions.
 - **Label Encoding**:
   - Applied custom encoding to categorical features using an extended version of `LabelEncoder` that can handle unknown labels, which prepares categorical data for model input.
 - **Data Visualizations**:
