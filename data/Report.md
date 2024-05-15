@@ -212,7 +212,7 @@ Below is a table summarizing the accuracy score for the Voting Classifier, which
 | **Voting Classifier** | 0.95           |
 
 
-## Step 5: Handling Imbalanced Dataset
+## 5 Handling Imbalanced Dataset
 
 ### Overview
 Initially, high accuracy scores indicated a potential class imbalance in the dataset, which can lead to misleading model performance, particularly overfitting to the majority class.
@@ -221,6 +221,32 @@ Initially, high accuracy scores indicated a potential class imbalance in the dat
 - **Applied SMOTE Method**: The Synthetic Minority Over-sampling Technique (SMOTE) was employed to address the imbalance in the dataset. SMOTE generates synthetic samples from the minority class to create a balanced dataset.
 
 ![image](https://github.com/Meghnaaryasri/UMBC-DATA606-Capstone/assets/158225860/4dbd04e1-b32c-49a2-8e16-9b1a671bd543)
+
+
+
+## 6 Re-Training Models
+
+After addressing the class imbalance with SMOTE, the models were retrained to assess their performance with a balanced dataset. This step ensured that the improvements were due to better model learning rather than fitting to the majority class.
+
+### 6.1 Re-Evaluation of Models
+Models were retrained and their performance was re-evaluated to compare their effectiveness post-balancing.
+
+### 6.2 Cross- Validation and Hyperparameter Tuning Re-Applied
+Using RandomizedSearchCV, models were fine-tuned with optimized parameters derived from the newly balanced dataset to maximize their performance.
+
+### 6.3 Final Model Training
+A Voting Classifier was retrained using the best parameters obtained from individual models to leverage their collective strengths for robust prediction capabilities.
+
+### Model Scores Post Re-Training
+
+| Model                | Normal Model Accuracy | Cross-Validation Accuracy | Best Random Search Score |
+|----------------------|-----------------------|---------------------------|--------------------------|
+| **Random Forest**    | 0.93                  | 0.97                      | 0.90                     |
+| **Gradient Boosting**| 0.80                  | 0.87                      | 0.97                     |
+| **Logistic Regression**| 0.31                | 0.56                      | 0.60                     |
+| **K-Nearest Neighbors**| 0.85                | 0.93                      | 0.93                     |
+| **Decision Tree**    | 0.89                  | 0.94                      | 0.89                     |
+| **Naive Bayes**      | 0.33                  | 0.59                      | 0.62                     |
 
 
 
