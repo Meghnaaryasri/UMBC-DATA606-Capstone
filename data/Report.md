@@ -323,5 +323,5 @@ This Streamlit web application serves as a practical demonstration of applying m
 - [Detection of Traffic Rule Violations Using Machine Learning: An Analytical Review](https://www.researchgate.net/publication/369883237_Detection_of_Traffic_Rule_Violations_Using_Machine_Learning_An_Analytical_Review) - ResearchGate
 - [Machine Learning Based Approach for Traffic Rule Violation Detection](https://www.mdpi.com/2076-3417/13/8/5113) - MDPI
 - [Machine Learning Based Approach for Traffic Rule Violation Detection](https://www.researchgate.net/publication/368966234_Machine_Learning_Based_Approach_for_Traffic_Rule_Violation_Detection) - ResearchGate
-- [Detection of Traffic Rule Violations Using Machine Learning: An Analytical Review](https://www.academia.edu/105475480/Detection_of_Traffic_Rule_Violations_Using_Machine_Learning_An_Analytical_Review) - Academia.edu
+- [Detection of Traffic Rule Violations Using Machine Learning: An Analytical Review](https://www.academia.edu/105475480/Detection_of_Traffic_Rule_Violations_Using_Machine_Learning_An_Analytical_Review) - Academia.edu 
 
