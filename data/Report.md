@@ -327,6 +327,8 @@ This Streamlit web application serves as a practical demonstration of applying m
 
 
 
+
+
   | Model              | Accuracy Score | Cross-Validation Accuracy | Best Score from Randomized Search CV |
 |--------------------|----------------|---------------------------|--------------------------------------|
 | Random Forest      | 0.95           | 0.95                      | 0.95                                 |
