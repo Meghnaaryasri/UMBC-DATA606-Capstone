@@ -323,5 +323,22 @@ This Streamlit web application serves as a practical demonstration of applying m
 - [Detection of Traffic Rule Violations Using Machine Learning: An Analytical Review](https://www.researchgate.net/publication/369883237_Detection_of_Traffic_Rule_Violations_Using_Machine_Learning_An_Analytical_Review) - ResearchGate
 - [Machine Learning Based Approach for Traffic Rule Violation Detection](https://www.mdpi.com/2076-3417/13/8/5113) - MDPI
 - [Machine Learning Based Approach for Traffic Rule Violation Detection](https://www.researchgate.net/publication/368966234_Machine_Learning_Based_Approach_for_Traffic_Rule_Violation_Detection) - ResearchGate
-- [Detection of Traffic Rule Violations Using Machine Learning: An Analytical Review](https://www.academia.edu/105475480/Detection_of_Traffic_Rule_Violations_Using_Machine_Learning_An_Analytical_Review) - Academia.edu   
+- [Detection of Traffic Rule Violations Using Machine Learning: An Analytical Review](https://www.academia.edu/105475480/Detection_of_Traffic_Rule_Violations_Using_Machine_Learning_An_Analytical_Review) - Academia.edu
+
+
+
+  | Model              | Accuracy Score | Cross-Validation Accuracy | Best Score from Randomized Search CV |
+|--------------------|----------------|---------------------------|--------------------------------------|
+| Random Forest      | 0.95           | 0.95                      | 0.95                                 |
+| Gradient Boosting  | 0.95           | 0.95                      | 0.95                                 |
+| Logistic Regression| 0.95           | 0.95                      | 0.95                                 |
+| K-Nearest Neighbors| 0.95           | 0.94                      | 0.93                                 |
+| Decision Tree      | 0.93           | 0.92                      | 0.95                                 |
+| Naive Bayes        | 0.95           | 0.95                      | 0.95                                 |
+
+### Voting Classifier Performance
+| Ensemble Method    | Accuracy Score |
+|--------------------|----------------|
+| Voting Classifier  | 0.95           |
+
 
