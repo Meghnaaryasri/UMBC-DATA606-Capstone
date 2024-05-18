@@ -328,19 +328,3 @@ This Streamlit web application serves as a practical demonstration of applying m
 
 
 
-
-  | Model              | Accuracy Score | Cross-Validation Accuracy | Best Score from Randomized Search CV |
-|--------------------|----------------|---------------------------|--------------------------------------|
-| Random Forest      | 0.95           | 0.95                      | 0.95                                 |
-| Gradient Boosting  | 0.95           | 0.95                      | 0.95                                 |
-| Logistic Regression| 0.95           | 0.95                      | 0.95                                 |
-| K-Nearest Neighbors| 0.95           | 0.94                      | 0.93                                 |
-| Decision Tree      | 0.93           | 0.92                      | 0.95                                 |
-| Naive Bayes        | 0.95           | 0.95                      | 0.95                                 |
-
-### Voting Classifier Performance
-| Ensemble Method    | Accuracy Score |
-|--------------------|----------------|
-| Voting Classifier  | 0.95           |
-
-
