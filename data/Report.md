@@ -3,13 +3,13 @@
 ## 1.Title and Author
 ### Prepared for UMBC Data Science Master's Degree Capstone by Dr. Chaoji (Jay) Wang
 
-**Author:** Meghna Vaishnavi Aryasri, UMBC, Fall-2024 Semester 
+**Author:** Meghna Vaishnavi Aryasri, UMBC, Fall-2024 Semester
 
 **Links:**
-- **GitHub:** 
-- **LinkedIn:** 
-- **YouTube:** 
-- **Presentation:** 
+- **GitHub:** [Meghnaaryasri](https://github.com/Meghnaaryasri)
+- **LinkedIn:** [Meghna Aryasri](https://www.linkedin.com/in/meghna-aryasri/)
+- **YouTube:** [Presentation Video](https://youtu.be/DKaPGXUmXtw)
+- **Presentation:** [UMBC SharePoint](https://umbc-my.sharepoint.com/:p:/g/personal/meghnaa1_umbc_edu/EeDqhAiATlpIgmAWf0OJi4UBp_VpSSM3h9FjRR13bp38eg?e=eogbe5)
 
 ## 2.Background
 
