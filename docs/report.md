@@ -47,7 +47,7 @@ The dataset `Trafficviolations.csv` includes 132,728 records with 7 columns deta
 
 ### Dimensions
 - **Number of Rows**: 132,728
-- **Number of Columns**: 7
+- **Number of Columns**: 7 
 
 - ## 3: Data Preparation
 
