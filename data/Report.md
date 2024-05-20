@@ -1,7 +1,7 @@
 
 # Traffic Violations and Predictive Analysis
 ## 1.Title and Author
-### Prepared for UMBC Data Science Master's Degree Capstone by Dr. Chaoji (Jay) Wang
+### Prepared for UMBC Data Science Master's Degree Capstone by Dr. Chaoji (Jay) Wang 
 
 **Author:** Meghna Vaishnavi Aryasri, UMBC, Fall-2024 Semester
 
