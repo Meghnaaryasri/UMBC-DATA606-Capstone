@@ -1,5 +1,5 @@
 
-# Traffic Violations and Predictive Analysis
+# Traffic Violations and Predictive Analysis 
 ## 1.Title and Author
 ### Prepared for UMBC Data Science Master's Degree Capstone by Dr. Chaoji (Jay) Wang
 
